@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a:visited,a:active,a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#header,#body,#footer{
+    width: 100vw;
+}
+#header{
+    background: #18181b;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #e4e4e7;
+}
+#body{
+    min-height: 80vh;
+    background: #a3a3a3;
+}
+#footer{
+    color: #f4f4f5;
+}
