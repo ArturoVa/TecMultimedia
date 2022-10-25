@@ -104,10 +104,6 @@ ul.display .item{
     display: flex;
     flex-direction: column;
 }
-.politicas .item{
-
-    
-}
 #footer .politicas .item{
     color: #64748b;
     font-size: 0.8em;
