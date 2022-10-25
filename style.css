@@ -17,6 +17,8 @@ a:visited,a:active,a{
 }
 body{
     font-family: Bebas;
+    max-width: 100vw;
+    overflow-x: hidden;
 }
 .carousel-item{
     width: 100%;
@@ -59,12 +61,58 @@ body{
 }
 #head #carousel{
     width: 100%;
-
 }
-#ofertas{
+#body #part2 .header{
+    background: #312e81;
+    color: #e4e4e7;
     text-align: center;
+    font-size: 2.4em;
+    display:flex;
+    flex-direction:column;
 }
-
+#body #part3 .header{
+    background: #db2777;
+    color: #e4e4e7;
+    text-align: center;
+    font-size: 2.4em;
+    display:flex;
+    flex-direction:column;
+}
+ul.display{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    width: 100%;
+    justify-content: space-around;
+}
+ul.display .item{
+    aspect-ratio: 1/1;
+}
+#raya{
+    height: 20px;
+    width: 100vw;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,150,96,1) 35%, rgba(0,212,255,1) 100%);
+}
 #footer{
-    color: #f4f4f5;
+    background: #f4f4f5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.politicas{
+    display: flex;
+    flex-direction: column;
+}
+.politicas .item{
+
+    
+}
+#footer .politicas .item{
+    color: #64748b;
+    font-size: 0.8em;
+
+}
+#footer #mexico{
+    width: 100px;
 }
