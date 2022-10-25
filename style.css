@@ -1,10 +1,22 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Bebas";
+    src: url("./Fonts/bebasneue-regular-webfont.woff") format("woff"),
+    url("./Fonts/bebasneue-regular-webfont.woff2") format("woff2");
+    }
+li{
+    list-style-type: none;
 }
 a:visited,a:active,a{
     text-decoration: none;
     color: inherit;
+}
+body{
+    font-family: Bebas;
 }
 
 #header,#body,#footer{
@@ -18,10 +30,41 @@ a:visited,a:active,a{
     align-items: center;
     color: #e4e4e7;
 }
+#header a{
+    margin-left: 50px;
+}
+#header ul{
+    margin: 50px;
+    font-size: 1.5rem;
+}
 #body{
     min-height: 80vh;
     background: #a3a3a3;
+    overflow: hidden;
 }
+#body #head{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+#head .left{
+    font-size: 4em;
+    text-justify: center;
+    background-color: #e4e4e7;
+    margin: 15px;
+    max-width: 400px;
+
+}
+#head #carousel{
+    max-width: 500px;
+
+}
+#ofertas{
+    text-align: center;
+}
+
 #footer{
     color: #f4f4f5;
 }
