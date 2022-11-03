@@ -34,11 +34,15 @@ body{
 }
 #header{
     background: #18181b;
-    height: 10vh;
+    height: 15vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #e4e4e7;
+}
+#header #logo img{
+    max-width: 90px;
+    margin-left: 50px;
 }
 #header a{
     margin-left: 50px;
@@ -108,6 +112,9 @@ ul.display .item{
     color: #64748b;
     font-size: 0.8em;
 
+}
+#footer #logo{
+    width: 90px;
 }
 #footer #mexico{
     width: 100px;
