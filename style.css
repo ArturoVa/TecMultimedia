@@ -11,9 +11,16 @@
 li{
     list-style-type: none;
 }
-a:visited,a:active,a{
+a{
     text-decoration: none;
     color: inherit;
+    transition: 0.2s;
+}
+#header li a:hover{
+    outline: 2px #e4e4e7 solid;
+    color: #18181b;
+    background-color: #e4e4e7;
+    border-radius: 5px;
 }
 body{
     font-family: Bebas;
