@@ -22,7 +22,7 @@ body{
 }
 .carousel-item{
     width: 100%;
-    height: 400px;
+    height: 90vh;
     overflow: hidden;
 }
 .carousel-item img{
@@ -46,10 +46,14 @@ body{
 }
 #header a{
     margin-left: 50px;
+    font-size: 40px;
 }
 #header ul{
-    margin: 50px;
-    font-size: 1.5rem;
+    display: flex;
+}
+#header li {
+    margin: 30px;
+
 }
 #body{
     min-height: 80vh;
@@ -118,4 +122,37 @@ ul.display .item{
 }
 #footer #mexico{
     width: 100px;
+}
+/*Pagina de capturas*/
+.container{
+    background-color: #93c5fd;
+    border-radius: 15px;
+    border: solid rgba(0, 0, 0, 0.505) 1px;
+    box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.442);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5%;
+}
+.container #encabezado{
+    font-size: 50px;
+}
+.container button{
+    width: auto;
+    font-size: 20px;
+}
+#body2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    background: #a3a3a3;
+    overflow: hidden;
+}
+#formulario{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
