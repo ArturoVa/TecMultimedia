@@ -1,6 +1,6 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: none;
+    margin: none;
     box-sizing: border-box;
 }
 @font-face {
@@ -14,6 +14,20 @@ li{
 a:visited,a:active,a{
     text-decoration: none;
     color: inherit;
+<<<<<<< design2
+=======
+    transition: 0.2s;
+}
+ul{
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+#header li a:hover{
+    outline: 2px #e4e4e7 solid;
+    color: #18181b;
+    background-color: #e4e4e7;
+    border-radius: 5px;
+>>>>>>> local
 }
 body{
     font-family: Bebas;
@@ -70,6 +84,17 @@ body{
     display:flex;
     flex-direction:column;
 }
+#body #part2 .display .item a.button{
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
 #body #part3 .header{
     background: #db2777;
     color: #e4e4e7;
@@ -87,6 +112,9 @@ ul.display{
 }
 ul.display .item{
     aspect-ratio: 1/1;
+}
+ul.display .item .item-muestra{
+    max-height: 200px;
 }
 #raya{
     height: 20px;
