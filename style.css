@@ -202,3 +202,12 @@ tr{
 #footer #mexico{
     width: 100px;
 }
+form{
+    padding: 10%;
+}
+td{
+    transition: 1s;
+}
+td:hover{
+    transform: scale(1.1);
+}
