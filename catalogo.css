@@ -1,8 +1,18 @@
 #body3 #left ul{
     outline: solid #18181b 1px;
-    
+    padding: 0;
 }
-#body{
+#body3 #left ul li:first-child{
+    background: grey;
+}
+#body #left{
+    min-width: 20vw;
+}
+#body #right{
+    min-width: 80vw;
+}
+#body3{
     width: 100%;
-    min-height: 80%;
+    min-height: 80vh;
+    display: flex;
 }
