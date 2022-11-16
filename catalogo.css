@@ -15,4 +15,54 @@
     width: 100%;
     min-height: 80vh;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+#holder{
+    display: flex;    
+    gap:min(100px,10%);   
+}
+#nino,#nina{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    border-radius: 5px; 
+}
+#nino a, #nina a{
+    width: 100%;
+    height: 100%;
+}
+#titulo{
+    font-size: 70px;
+}
+.box a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box a span{
+    font-size: 50px;
+}
+#nina:hover{
+    background: pink;
+    transform: rotate(5deg);
+    translate:15px;
+
+}
+#nino:hover{
+    background: rgb(35, 192, 240);
+    transform: rotate(-5deg);
+    translate:-15px;
+}
+#nino{
+    background: blue;
+    transition: 0.5s;
+}
+#nina{
+    background: rgb(255, 55, 89);
+    transition: 0.5s;
 }
