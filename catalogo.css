@@ -1,0 +1,21 @@
+#body #left-bar{
+    width: 20%;
+}
+#left-bar ul li{
+    color: white;
+    background-color: rgb(107, 106, 106);
+    font-size: max(30px,2em);
+    padding-left: 10px;
+}
+#left-bar ul{
+    outline: solid black 1px;
+    padding: 0;
+    margin-left: 10px;
+    box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.442);
+    text-align:unset;
+}
+
+#left-bar ul li:first-child{
+    outline: solid black 1px;
+    background-color: rgb(44, 44, 44);
+}
