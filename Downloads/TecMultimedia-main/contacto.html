@@ -1,0 +1,103 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+      <link rel="shortcut icon" href="./imagenes/favicon.png" />
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+      <title>Contacto</title>
+      <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+      <link rel="stylesheet" href="./style.css"> 
+      <script src="./js/js/bootstrap.bundle.min.js" defer></script>
+      <script src="./script.js" defer></script>
+    </head>
+    <body>
+          <div id="header">
+            <div id="logo"><a href="./index.html"><img src="./imagenes/bisontito.png" alt=""></a></div>
+            <div class="right">
+              <a class="j" id="i" href="./index.html">Inicio</a>
+                <a class="j" id="c" href="./catalogo.html">Catalogo</a>
+                <a class="j" id="is" href="./login.html">Iniciar Sesion</a>
+            </div>
+        </div>
+        <div id="body">
+          <br>
+            <h1 id="cs">Comentarios y Sugerencias</h1>
+            <form>
+                <div class="form-row">
+                  <div class="col-md-4 mb-3">
+                    <label for="validationServer01">Nombre(s)</label>
+                    <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Nombre(s)" value="Mark" required>
+                    <div class="valid-feedback">
+                      ¡Se ve bien!
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <label for="validationServer02">Apellido(s)</label>
+                    <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Apellido(s)" value="Otto" required>
+                    <div class="valid-feedback">
+                      ¡Se ve bien!
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <label for="validationServerUsername">Username</label>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                      </div>
+                      <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="Username" aria-describedby="inputGroupPrepend3" required>
+                      <div class="invalid-feedback">
+                        Por favor, ingrese un nombre de usuario.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <label for="validationServer03">Ciudad</label>
+                    <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="Ciudad" required>
+                    <div class="invalid-feedback">
+                      Por favor, ingrese una ciudad válida.
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <label for="validationServer04">Estado</label>
+                    <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="Estado" required>
+                    <div class="invalid-feedback">
+                        Por favor, ingrese un estado válido.
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Comentarios</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+                    <label class="form-check-label" for="invalidCheck3">
+                      Acepte los términos y condiciones
+                    </label>
+                    <div class="invalid-feedback">
+                      Debe de aceptar los términos y condiciones antes de enviar.
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-primary" type="submit">Enviar</button>
+              </form>
+        </div>
+        <div id="raya"></div>
+        <div id="footer">
+            <img src="./imagenes/bisontito.png" alt="logo" id="logo">
+            <div>
+                <ul class="politicas">
+                  <li class="item"><a class="lh" href="./informacion.html">Acerca de Nosotros</a></li>
+                  <li class="item"><a class="lh" href="./contacto.html">Contacto</a></li>
+                  <li class="item"><a class="lh" href="./ubicaciones.html">Ubicaciones</a></li>
+                  <li class="item">¡No dudes en preguntar!</li>
+                </ul>
+            </div>
+            <img id="mexico" src="./imagenes/Logo-Hecho-en-Mexico.png" alt="Logo-Hecho-en-Mexico">
+        </div>
+    </body>
+</html>

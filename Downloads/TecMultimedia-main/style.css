@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Bebas";
+    src: url("./Fonts/bebasneue-regular-webfont.woff") format("woff"),
+    url("./Fonts/bebasneue-regular-webfont.woff2") format("woff2");
+    }
+li{
+    list-style-type: none;
+}
+a:visited,a:active,a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    font-family: Bebas;
+    max-width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+}
+img{
+    display: block;
+    width: 100%;
+}
+.carousel-item{
+    width: 100%;
+    height: 50vw;
+    overflow: hidden;
+}
+.carousel-item img{
+    width: 100%;
+}
+
+#body,#footer{
+    width: 100vw;
+}
+#header{
+    background: #18181b;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #e4e4e7;
+    padding-bottom: 20px;
+}
+#header #logo img{
+    /* background-color: #db2777; */
+    width: 100px;
+}
+.right{
+    /* background-color: tomato; */
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.j{
+    padding: 0%;
+    /* border: 2px solid; */
+    margin-left: 150px;
+    font-size: 20px;
+}
+#i:hover{
+    color: rgb(255, 255, 116);
+    transition: .8s;
+}
+#c:hover{
+    color: skyblue;
+    transition: 1s;
+}
+#is:hover{
+    color: cornsilk;
+    transition: 1s;
+}
+#ins:hover{
+    color: #be2222;
+    transition: 1.5s;
+}
+#is{
+    padding-left: 100px;
+    color: rgb(255, 61, 61);
+}
+#body{
+    min-height: 80vh;
+    /* background: #a3a3a3; */
+    overflow: hidden;
+}
+#body #head{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+#head #carousel{
+    width: 100%;
+}
+#body #part2 .header{
+    text-align: center;
+    font-size: 2.4em;
+    display:flex;
+    flex-direction:column;
+}
+#tituloi{
+    text-align: left;
+    font-size: 2.4em;
+    padding-left: 100px;
+}
+#tituloi:hover{
+    color: aquamarine;
+    transition: 0.4s;
+}
+h1,h3, #ubid, .inf{
+    text-align: center;
+}
+.mapa iframe{
+    width: 100%;
+}
+#no{
+    color: rgb(92, 92, 255);
+}
+#body #part3 .header{
+    text-align: center;
+    font-size: 2.4em;
+    display:flex;
+    flex-direction:column;
+}
+#na{
+    color: #fc57a1;
+}
+.lh:hover{
+    color: rgb(17, 14, 14);
+    transition: .5;
+}
+.v{
+    margin: 0 auto;
+    width: 30%;
+    display: block;
+}
+td{
+    min-width: 300px;
+    max-width: 300px;
+    height: 200px;
+    border: 50px solid white;
+    text-align: center;
+}
+tr{
+    min-width: 500px;
+    max-width: 500px;
+    /* background-color: #fc57a1; */
+}
+#an{
+    color: rgb(94, 192, 94);
+}
+#not{
+    color: rgb(53, 53, 247);
+}
+#cs{
+    color: rgb(221, 142, 45);
+}
+#ub{
+    color: rgb(181, 30, 241);
+}
+.prodi{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#raya{
+    height: 20px;
+    width: 100vw;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(65, 55, 253) 0%, rgb(150, 32, 230) 35%, rgb(250, 46, 206) 100%);
+}
+#footer{
+    background: #f4f4f5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.politicas{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#footer .politicas .item{
+    color: #64748b;
+    font-size: 0.9em;
+
+}
+#footer #logo{
+    width: 100px;
+}
+#footer #mexico{
+    width: 100px;
+}
